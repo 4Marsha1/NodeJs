@@ -1,0 +1,67 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 2px solid lightgray;
+}
+.logo>a{
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.logo>p{
+    font-size: 1.5rem;
+    color: grey;
+}
+nav>ul{
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: grey;
+    font-size:1.3rem;
+}
+.content{
+    padding: 2rem 4rem;
+}
+.blogs{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+footer{
+    text-align: center;
+}
+.create>form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.create>form>label,
+.create>form>input,
+.create>form>textarea{
+    width: 400px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    outline: none;
+    padding: 0.4rem 1rem;
+}
+.create>form>input[type='submit']{
+    background: black;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    width: 300px;
+    padding: 0.4rem 0;
+}
